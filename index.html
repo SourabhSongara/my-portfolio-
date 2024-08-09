@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Sourabh Songara</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Sourabh Songara</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#Services" onclick="toggleMenu()">Services</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/Untitled.png" alt="Sourabh Songara profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Sourabh Songara</h1>
+      <p class="section__text__p2">Fresher</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/sourabh-resume.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin (1).png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://linkedin.com/'" />
+        <img src="./assets/hackerrank.png" alt="My Hackerrank profile" class="icon"
+          onclick="location.href='https://linkedin.com/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/DSC_0181.JPG" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/mortarboard.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.Tech. Bachelor of Technology <br>Computer Science and Engineering. </p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            My aim is to work as an engineer in an organization, which
+            provides me the opportunity to work in team oriented tasks,
+            makes me experience healthy challenges, gives me a good
+            career opportunity where I can use my knowledge and skills
+            so that I can collaborate in the growth of the company.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/images-removebg-preview.png" alt="Arrow icon" class="icon arrow"
+      onclick="location.href='./#Skills'" />
+  </section>
+  <section id="Skills">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="Skills-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="Skills-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/check-mark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/check-mark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/check-mark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>SASS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/check-mark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/check-mark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Bootstrap</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="Skills-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/check-mark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Core Java</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/check-mark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>C++</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/check-mark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="Skills-sub-title">Database</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/check-mark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>SQL</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/images-removebg-preview.png" alt="Arrow icon" class="icon arrow"
+      onclick="location.href='./#Services'" />
+  </section>
+  <section id="Services">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Services</h1>
+    <div class="Services-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <h2 class="Services-sub-title project-title">Web Design</h2>
+          <br>
+          <div class="article-container">
+            <img src="./assets/design.jpeg" alt="Services 1" class="Services-img" />
+          </div>
+          <br>
+          <div class="text-container">
+            <p>Web design is the process of creating visually appealing, user-friendly websites. It involves a blend of
+              artistry and technical skill to produce websites that are both functional and engaging.</p>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="Services-sub-title project-title">Web Development</h2>
+          <br>
+          <div class="article-container">
+            <img src="./assets/development.jpeg" alt="Services 2" class="Services-img" />
+          </div>
+          <br>
+          <div class="text-container">
+            <p>Web development is the process of building and maintaining websites. It involves writing code to create
+              the structure, design, and functionality of a website.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/images-removebg-preview.png" alt="Arrow icon" class="icon arrow"
+      onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin (1).png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Sourabh Songara. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
